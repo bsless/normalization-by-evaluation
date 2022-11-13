@@ -1,0 +1,9 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.11.1"}
+         pangloss/pattern {:git/url "https://github.com/pangloss/pattern"
+                           :git/sha "b8ccf001c681b943b96ae5c2f07a9985b0a2bd90"}
+         meander/epsilon {:mvn/version "0.0.650"}
+         org.clojure/core.match {:mvn/version "1.0.0"}
+         org.clojure/core.logic {:mvn/version "1.0.1"}}
+ :aliases
+ {:neil {:project {:name bsless/nbe}}}}
